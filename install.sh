@@ -15,7 +15,7 @@ echo "start 192.168.42.2 " >>   $x
 echo "end 192.168.42.20" >> $x
 echo "interface wlan0" >> $x
 echo "remaining yes" >> $x
-echo "opt dns 8.8.8.8 4.2.2.2" >> $x
+echo "opt dns 208.67.222.123 208.67.220.123" >> $x
 echo "opt subnet 255.255.255.0" >> $x
 echo "opt router 192.168.42.1" >> $x
 echo "opt lease 864000" >> $x
